@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomBannerView">
+        <attr name="hint_mode">
+            <enum name="point" value="0" />
+            <enum name="number" value="1" />
+        </attr>
+        <attr name="hint_gravity">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="hint_paddingRight" format="dimension"/>
+        <attr name="hint_paddingLeft" format="dimension"/>
+        <attr name="hint_paddingTop" format="dimension"/>
+        <attr name="hint_paddingBottom" format="dimension"/>
+        <attr name="hint_marginRight" format="dimension"/>
+        <attr name="hint_marginLeft" format="dimension"/>
+        <attr name="hint_marginTop" format="dimension"/>
+        <attr name="hint_marginBottom" format="dimension"/>
+        <attr name="play_delay" format="integer" />
+        <attr name="hint_color" format="color" />
+        <attr name="hint_alpha" format="integer" />
+    </declare-styleable>
+
+
+    <!--跑马灯效果文本控件-->
+    <declare-styleable name="MarqueeViewStyle">
+        <attr name="mvInterval" format="integer|reference"/>
+        <attr name="mvAnimDuration" format="integer|reference"/>
+        <attr name="mvTextSize" format="dimension|reference"/>
+        <attr name="mvTextColor" format="color|reference"/>
+        <attr name="mvSingleLine" format="boolean"/>
+        <attr name="mvGravity">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+
+
+</resources>
